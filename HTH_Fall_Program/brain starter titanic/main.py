@@ -91,4 +91,4 @@ for index, row in titanic.iterrows():
 titanic.dropna(subset=["Embarked"])
 titanic["embarked"] = embark_num
 
-titanic.hist(column="embarked")
+titanic.hist(column="embarked") 
